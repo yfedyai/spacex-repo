@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* { padding: 0; margin: 0; border: 0;}
+
+*,*::before, *::after {
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 800px;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 15px;
+    background: rgb(104, 132, 165);
+    color:#ffff;
+}
+
+#progress-value {
+    background: rgb(162, 237, 242);
+    height: 25px;
+    width: 50%;
+    transition: all 1s ease-in-out;   /* Smooth changes while changing size of element */
+   
+}
+
+.row-double-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rendezvous-header {
+    flex-grow: 2;
+    background-color:rgb(130, 161, 195);
+    
+    border-top: 3px solid rgb(104, 132, 165);
+    padding: 10px 15px;
+}
+.approach-header {
+    flex-grow: 1;
+    border-left: 3px solid rgb(104, 132, 165);
+    border-top: 3px solid rgb(104, 132, 165);
+    background-color:rgb(130, 161, 195);
+    padding: 10px 15px;
+}  
+
+
+.approach {
+    font-size: 12px;
+    position: relative
+}
+
+.approach-row {
+    display: flex;
+    
+}
+
+.approach-cell {
+    flex-basis: 10%;
+    padding: 10px 12px;
+    border-right: 2px solid rgb(86, 114, 149);
+    border-bottom: 2px solid rgb(86, 114, 149);
+}
+
+.approach-progress {
+    background: rgb(162, 237, 242);
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    top:0%;
+    margin-left: 45%;
+    transition: left 2s linear;
+    
+}
+
+.approach-block {
+    position: absolute;
+    
+    height: 25px;
+    background:rgb(162, 237, 242);
+    
+
+}
+
+.b-1 {
+    left: 13%;
+    width: 30px;
+}
