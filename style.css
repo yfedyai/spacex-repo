@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/*HEADER SECTION  */
 #header {
     display: flex;
     font-family: 'Roboto', 'sans-serif';
@@ -54,19 +55,21 @@
     font-family: 'Font Awesome 5 free';
     font-weight: 700;
     font-size: 35px;
-    display: block;
-    /* background-color: #A2EDF2; */
     color: #A2EDF2;
     position: absolute;
-    right: 30%;
+    right: 20%;
     top: 35%;
 
 }
+/* HEADER SECTION END */
 
 
+.earth-photo img {
+    width: 100%;
+}
 
-.container {
-    width: 1000px;
+.time-container {
+  
     font-family: 'Roboto', 'sans-serif';
     font-size: 15px;
     background: rgb(104, 132, 165);
