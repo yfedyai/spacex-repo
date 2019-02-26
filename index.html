@@ -33,7 +33,6 @@
     </div>   
    </div>
    <div class="earth-photo">
-       <!-- <img src="https://scontent.fdnk1-2.fna.fbcdn.net/v/t31.0-8/16487811_1802030360071633_7098321912605215312_o.jpg?_nc_cat=100&_nc_ht=scontent.fdnk1-2.fna&oh=5e8257ae1b00e0569fab190b65219b60&oe=5CEEC725" alt="Earth from space"> -->
    </div>
    <div class="day-info">
        <div class="today-info main-block" >
@@ -41,26 +40,32 @@
            <div class="livetime">13:46:11</div>
        </div>
        <div class="chart main-block">
-          <div class="graphics"></div> 
+          <div class="graphics">
+              <img src="/img/systems-graph.jpg" alt="system graphics">
+          </div> 
         </div>
-       <div>
-           <div>
-           <span><small>Next Burn</small></span>
-           <span><small>Enabled</small></span>
+       <div class="countdown main-block">
+           <div class="countdown-header">
+            <div class="countdown-summary">Next Burn</div>
+            <div class="countdown-status">Enabled</div>
            </div>
-           <div>-0:05:48</div>
-           <div>
-               <span><small>13:52:00</small></span>
-               <span><small>Day 131</small></span>
+           <div class="countdown-timer">-0:05:48</div>
+           <div class="next-start">
+               <div>13:52:00</div>
+               <div >DAY 131</div>
            </div>
+           
        </div>
-       <div>
-           <div>
-               <div>Target V</div>
-               <div>33.5 m/s</div>
-               <div><small>Thruster Temps</small></div>
-           </div>
+       <div class="target-info main-block">   
+               <div class="target-name">Target &#916V</div>
+               <div class="current-speed">33.5 m/s</div>
+               <div class="engine-temp">Thruster Temps</div>       
        </div>
+   </div>
+
+   <div class="current-status">
+       <div class="alarm-count main-block"><span>0</span> Alarms</div>
+       <div class="system-status main-block">all systems nominal       <i class="fas fa-check"></i> </div>
    </div>
 
    <div id="randezvous" class="time-container">
