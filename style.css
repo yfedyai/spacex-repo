@@ -86,6 +86,7 @@
     height:170px;
     color:#ffff;
     background-color: #728CAF;
+    background: linear-gradient(to top, #5A7592, #7E96BB);
     border: 3px #5D7695 solid;
     flex-basis: 25%;
     padding-top:15px;
@@ -244,6 +245,7 @@
     font-family: 'Roboto', 'sans-serif';
     height:400px;
     background-color: #728CAF;
+    background: linear-gradient(to top, #5A7592, #7E96BB);
     display: flex;
 }
 
