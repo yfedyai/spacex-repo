@@ -482,7 +482,7 @@
 
 
 .approach {
-    font-size: 12px;
+    font-size: 15px;
     position: relative
 }
 
@@ -690,13 +690,21 @@
 }
 
 
-.row:last-child{
-    background-color: red;
+.approach-row.timeline-row {
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-around;
+    
 }
 
 
 .timecell {
     padding: 0;
-    border-right: none;
+   border: none;
+    text-align: center;
 } 
-/* neeed to ADDITIONAL WORK */
+ 
+
+#progress {
+   border-top:  3px solid rgb(86, 114, 149);
+}
